@@ -1,0 +1,22 @@
+<!DOCTYPE html>   
+<html>            
+<body>            
+
+<h2>Break</h2> 
+
+<p>Un bucle con el uso del <b>break</b></p>  
+
+
+<p id="demo"></p>  
+
+<script>    
+var text = "";    
+var i;   
+for (i = 0; i < 10; i++) {    
+  if (i === 3) { break; }    
+  text += "El  numero es  " + i + "<br>";  
+}  
+document.getElementById("demo").innerHTML = text;    
+</script>  
+</body>  
+</html>   
